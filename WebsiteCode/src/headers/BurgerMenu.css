@@ -1,0 +1,55 @@
+.body {
+  /* height: ; */
+  width: 50vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: antiquewhite;
+
+  top: 0;
+  color: rgb(0, 0, 0);
+}
+button {
+  position: fixed; /* Keeps the hamburger button fixed */
+  top: 5px; /* Adjust the vertical position */
+  right: 20px; /* Adjust the horizontal position */
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+
+  padding: 5px;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.hamburger div {
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+.boxidea {
+  position: fixed; /* Positions it relative to the viewport */
+  top: 0;
+  right: 0; /* Makes it appear from the right */
+  width: 50%; /* Covers half the screen width */
+  height: 100%; /* Covers the entire screen height */
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  color: white;
+  padding: 20px;
+  overflow-y: auto; /* Adds scroll if content overflows */
+  z-index: 999; /* Ensures it stays above other elements */
+}
+
+/* Optional styling for content */
+.boxidea p {
+  margin: 0;
+  font-size: 16px;
+}

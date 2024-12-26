@@ -6,13 +6,13 @@ function Header() {
     <>
       <div className="header1">
         <div className="place">Bhaktaput Nepal</div>
-        <div className="main">
+        {/* <div className="main">
           <ul className="menu">
             <li>Home</li>
             <li>My Projects</li>
             <li>About me</li>
           </ul>
-        </div>
+        </div> */}
         <div>
           <BurgerMenu />
         </div>
