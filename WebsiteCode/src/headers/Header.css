@@ -1,0 +1,15 @@
+.header1 {
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  /* align-items: center; Align items vertically in the center */
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.menu li {
+  padding: 1px 10px;
+}
