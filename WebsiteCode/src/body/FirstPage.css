@@ -1,0 +1,25 @@
+/* Center the div on the page */
+.data {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack the text vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 90vh; /* Full viewport height */
+  text-align: center; /* Center the text */
+  font-family: Arial, sans-serif; /* Change the font */
+  font-size: 3rem; /* Adjust text size */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Style for different parts of the text */
+.web {
+  color: #ff5733; /* Orange */
+}
+
+.designer {
+  color: #33c4ff; /* Light blue */
+}
+
+.developer {
+  color: #75ff33; /* Light green */
+}
