@@ -1,15 +1,17 @@
 import "./FirstPage.css";
+import ButtonCool from "./ButtonCool";
+import Profile from "./profile";
 
 function FirstPage() {
   return (
     <>
-      <div>
-        <button>hello</button>
-      </div>
       <div className="data">
+        <Profile />
         <span className="web">WEB</span>
         <span className="designer">DESIGNER </span>
-        <span className="&">& </span>
+        <span className="and">
+          &<ButtonCool />
+        </span>
         <span className="developer">DEVELOPER</span>
       </div>
     </>

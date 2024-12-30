@@ -1,0 +1,17 @@
+.profile-box {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Make the box circular */
+  overflow: hidden; /* Hide any overflowed content (image edges) */
+  cursor: pointer; /* Change the cursor to indicate it's clickable */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}

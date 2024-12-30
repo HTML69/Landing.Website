@@ -8,19 +8,27 @@
   text-align: center; /* Center the text */
   font-family: Arial, sans-serif; /* Change the font */
   font-size: 3rem; /* Adjust text size */
-  font-weight: bold; /* Make the text bold */
-  user-select: none; /*
+
+  user-select: none;
 }
 
+.data span {
+  display: flex; /* Ensure the contents of span are inline */
+  align-items: center; /* Vertically align & and ButtonCool */
+}
 /* Style for different parts of the text */
 .web {
-  color: #ff5733; /* Orange */
+  color: #33ffdd; /* Orange */
 }
 
 .designer {
-  color: #33c4ff; /* Light blue */
+  color: #ffeb33; /* Light blue */
 }
 
 .developer {
-  color: #75ff33; /* Light green */
+  color: #9233ff; /* Light green */
+}
+.and {
+  color: #9e9e9e;
+  margin-left: 150px;
 }
