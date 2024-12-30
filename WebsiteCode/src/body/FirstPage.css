@@ -9,6 +9,7 @@
   font-family: Arial, sans-serif; /* Change the font */
   font-size: 3rem; /* Adjust text size */
   font-weight: bold; /* Make the text bold */
+  user-select: none; /*
 }
 
 /* Style for different parts of the text */
