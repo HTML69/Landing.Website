@@ -3,6 +3,9 @@ import "./FirstPage.css";
 function FirstPage() {
   return (
     <>
+      <div>
+        <button>hello</button>
+      </div>
       <div className="data">
         <span className="web">WEB</span>
         <span className="designer">DESIGNER </span>
