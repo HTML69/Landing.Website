@@ -15,7 +15,7 @@ const Profile = () => {
     setImage((prevImage) =>
       prevImage === "download" ? "image2.jpg" : "download.jpg"
     );
-  };
+  }; //dying rn
 
   return (
     <div className="profile-box" onClick={changeImage}>
