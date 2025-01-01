@@ -8,6 +8,7 @@ import download from "../assets/profile/download.jpg";
 
 const Profile = () => {
   // State to manage the current image
+  // fot he stacks
   const [image, setImage] = useState("download"); // Default image
 
   // Function to change the image when clicked
