@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "Project One",
+      "description": "A description of project lorem onefsdklfjlaskjfklsdajfksdjfksjdkfsdlfjlskdfjksd skfj skdfs jk jk kj jk jk kj kj  kj jkl kj kj k kjh jk jk hgj hj b j huj  hgj hgj hjk jhk hgj gh.",
+      "image": "../profile/1.jpg"
+    },
+    {
+      "title": "Project Two",
+      "description": "A description of project two.",
+      "image": "/profile/2.jpg"
+    },
+    {
+      "title": "Project Three",
+      "description": "A description of prortrtrtject three.",
+      "image": "/profile/1.jpg"
+    }
+  ],
+  "name": "project",
+
+  "images": {
+    "img1": "/profile/1.jpg",
+    "img2": "/profile/2.jpg"
+  }
+}

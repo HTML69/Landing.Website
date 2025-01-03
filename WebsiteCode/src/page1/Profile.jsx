@@ -1,17 +1,22 @@
-import React, { useState } from "react";
-import "./Profile.css";
+import React, { useState, useEffect } from "react";
+import assets from "../assets/datas/assets.json"; // Import the JSON data
 
-// Import the images
-import image1 from "../assets/profile/2.jpg";
-import image2 from "../assets/profile/1.jpg"; // Make sure this file exists
+import "./Profile.css";
 
 const Profile = () => {
   // State to manage the current image
-  const [image, setImage] = useState(image1); // Default image
+  const [image, setImage] = useState("");
+
+  // Set the initial image when the component mounts
+  useEffect(() => {
+    setImage(assets.images.img1); // Set the default image to img1
+  }, []);
 
   // Function to change the image when clicked
   const changeImage = () => {
-    setImage((prevImage) => (prevImage === image1 ? image2 : image1));
+    setImage((prevImage) =>
+      prevImage === assets.images.img1 ? assets.images.img2 : assets.images.img1
+    );
   };
 
   return (
