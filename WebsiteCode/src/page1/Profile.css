@@ -1,6 +1,6 @@
 .profile-box {
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%; /* Make the box circular */
   overflow: hidden; /* Hide any overflowed content (image edges) */
   cursor: pointer; /* Change the cursor to indicate it's clickable */

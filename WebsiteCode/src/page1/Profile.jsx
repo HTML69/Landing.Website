@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import "./Profile.css";
 
 // Import the images
-import download from "../assets/profile/download.jpg";
-import image2 from "../assets/profile/download.jpg"; // Make sure this file exists
+import image1 from "../assets/profile/2.jpg";
+import image2 from "../assets/profile/1.jpg"; // Make sure this file exists
 
 const Profile = () => {
   // State to manage the current image
-  const [image, setImage] = useState(download); // Default image
+  const [image, setImage] = useState(image1); // Default image
 
   // Function to change the image when clicked
   const changeImage = () => {
-    setImage((prevImage) => (prevImage === download ? image2 : download));
+    setImage((prevImage) => (prevImage === image1 ? image2 : image1));
   };
 
   return (

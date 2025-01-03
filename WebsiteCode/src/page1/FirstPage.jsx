@@ -1,13 +1,16 @@
 import "./FirstPage.css";
 import ButtonCool from "./ButtonCool";
-import Profile from "./profile";
+import Profile from "./Profile";
 
 function FirstPage() {
   return (
     <>
       <div className="data">
-        <Profile />
-        <span className="web">WEB</span>
+        <span className="web">
+          {" "}
+          <Profile />
+          WEB
+        </span>
         <span className="designer">DESIGNER </span>
         <span className="and">
           &<ButtonCool />
