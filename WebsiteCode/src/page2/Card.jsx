@@ -1,26 +1,7 @@
 import React, { useState } from "react";
 import "./Card.css";
-import profile1 from "../assets/profile/1.jpg";
 
-const projects = [
-  {
-    title: "Project One",
-    description: "A description of project one.",
-    image: profile1,
-  },
-  {
-    title: "Project Two",
-    description: "A description of project two.",
-    image: "https://via.placeholder.com/200x150?text=Project+Two",
-  },
-  {
-    title: "Project Three",
-    description: "A description of project three.",
-    image: "https://via.placeholder.com/200x150?text=Project+Three",
-  },
-];
-
-function Card() {
+function Card({ title, description, image }) {
   const [hoverImage, setHoverImage] = useState(null);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
@@ -41,19 +22,16 @@ function Card() {
     <div className="table-container">
       <table className="project-table">
         <tbody>
-          {projects.map((project, index) => (
-            <tr
-              key={index}
-              onMouseEnter={(e) => handleMouseEnter(project.image, e)}
-              onMouseLeave={handleMouseLeave}
-              onMouseMove={handleMouseMove}
-            >
-              <td>
-                <strong>{project.title}</strong>
-                <p>{project.description}</p>
-              </td>
-            </tr>
-          ))}
+          <tr
+            onMouseEnter={(e) => handleMouseEnter(image, e)}
+            onMouseLeave={handleMouseLeave}
+            onMouseMove={handleMouseMove}
+          >
+            <td>
+              <strong>{title}</strong>
+              <p>{description}</p>
+            </td>
+          </tr>
         </tbody>
       </table>
       {hoverImage && (
