@@ -1,17 +1,17 @@
 {
   "projects": [
     {
-      "title": "Project One",
-      "description": "A description of project lorem onefsdklfjlaskjfklsdajfksdjfksjdkfsdlfjlskdfjksd skfj skdfs jk jk kj jk jk kj kj  kj jkl kj kj k kjh jk jk hgj hj b j huj  hgj hgj hjk jhk hgj gh.",
+      "title": "This Website | React, JavaScript, CSS",
+      "description": " ",
       "image": "../profile/1.jpg"
     },
     {
-      "title": "Project Two",
+      "title": "Top Down RPG | JavaScript, Tiled, Kaboom.js, HTML5 Canvas",
       "description": "A description of project two.",
       "image": "/profile/2.jpg"
     },
     {
-      "title": "Project Three",
+      "title": " Frontend Learning Project | HTML, CSS",
       "description": "A description of prortrtrtject three.",
       "image": "/profile/1.jpg"
     }
