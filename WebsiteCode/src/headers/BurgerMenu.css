@@ -72,24 +72,25 @@
   text-align: left; /* Align text to the left */
 }
 
-.menu1 li,
-.menu2 li {
-  font-size: 1rem; /* Adjust font size */
+.menu1 li button,
+.menu2 li button {
   margin: 10px 0; /* Add spacing between items */
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 1rem; /* Adjust font size */
+  background: none;
+  border: none;
   color: #333; /* Dark gray text */
   cursor: pointer; /* Pointer cursor on hover */
-  transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.menu1 li:hover,
-.menu2 li:hover {
+.menu1 li button:hover,
+.menu2 li button:hover {
   color: #0073e6; /* Highlight color on hover */
   transform: scale(1.1); /* Slight zoom on hover */
 }
 
 .divider {
   width: 20px;
-  background-color: #534444; /* Light gray for divider */
   height: 80%; /* Adjust height of the vertical line */
 }
 

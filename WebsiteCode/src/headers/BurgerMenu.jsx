@@ -19,23 +19,36 @@ function BurgerMenu({ homeRef, aboutRef }) {
       <div className="main">
         <div className="menu-container">
           <ul className="menu1">
-            <li>Instagram</li>
-            <li>LinkedIn</li>
-            <li>GitHub</li>
-            <li>Resume</li>
+            <li>
+              <button>Instagram</button>
+            </li>
+            <li>
+              <button>LinkedIn</button>
+            </li>
+            <li>
+              <button>GitHub</button>
+            </li>
+            <li>
+              <button>Resume</button>
+            </li>
           </ul>
           <div className="divider"></div>
           <ul className="menu2">
             <li>
               <button onClick={() => scrollToSection(homeRef)}>Home</button>
             </li>
-            <li>Education</li>
+            <li>
+              {" "}
+              <button>Education</button>
+            </li>
             <li>
               <button onClick={() => scrollToSection(aboutRef)}>
                 My Projects
               </button>
             </li>
-            <li>About Me</li>
+            <li>
+              <button>About Me</button>
+            </li>
           </ul>
         </div>
       </div>
