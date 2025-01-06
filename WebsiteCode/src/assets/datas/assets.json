@@ -1,5 +1,22 @@
-{"education": [{"title":"MVA",
-"discrition]
+{
+  "Education": [
+    {
+      "title": "MVA",
+      "description": " ",
+      "image": "../profile/landingscreen.jpg"
+      //have the certificaat image i guess
+    },
+    {
+      "title": "NPS",
+      "description": "A description of project two. sadfksafsd fsd fsd f dsf  fs f sa f f fd fd fd fd fdf df df  s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf syguhge d djd djbe didbdibs idhd dbsihdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f   s f f asdf sd fc sdv fsd dsfsd f sf sdf s fs fsd f saf sf s fs fas f sf s fs f f f sf s f faryans f f saf sf sa fs f fsa f saf ",
+      "image": "/profile/2.jpg"
+    },
+    {
+      "title": "BMC",
+      "description": "A description of prortrtrtject three.",
+      "image": "/profile/1.jpg"
+    }
+  ],
   "projects": [
     {
       "title": "This Website | React, JavaScript, CSS",
