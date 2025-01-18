@@ -7,7 +7,7 @@ function Header({ homeRef, projectRef, educationRef }) {
       <div className="header1">
         <div className="place">
           <img src="./src/assets/logo.svg" alt="Icon" className="icon" />
-          Bhaktaput Nepal
+          Bhaktaput Nepal.
         </div>
 
         <div>
