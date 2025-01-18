@@ -6,19 +6,21 @@ import React, { forwardRef } from "react";
 // Wrap the component with forwardRef
 const SecondPage = forwardRef((props, ref) => {
   return (
-    <>
+    <div ref={ref}>
       <hr />
-      <div className="project-list" ref={ref}>
+      <h1>My Projects</h1>
+      <div className="project-list">
         {assets.projects.map((project, index) => (
           <Card
             key={index}
             title={project.title}
             description={project.description}
             image={project.image}
+            link={project.link}
           />
         ))}
       </div>
-    </>
+    </div>
   );
 });
 

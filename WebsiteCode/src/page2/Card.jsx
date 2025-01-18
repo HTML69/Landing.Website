@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Card.css";
 
-function Card({ title, description, image }) {
+function Card({ title, description, image, link }) {
   const [hoverImage, setHoverImage] = useState(null);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
@@ -18,6 +18,12 @@ function Card({ title, description, image }) {
     setPosition({ x: e.clientX, y: e.clientY });
   };
 
+  const handleClick = () => {
+    if (link) {
+      window.open(link, "_blank"); // Open the link in a new tab
+    }
+  };
+
   return (
     <div className="table-container">
       <table className="project-table">
@@ -26,9 +32,12 @@ function Card({ title, description, image }) {
             onMouseEnter={(e) => handleMouseEnter(image, e)}
             onMouseLeave={handleMouseLeave}
             onMouseMove={handleMouseMove}
+            onClick={handleClick} // Add click handler here
+            style={{ cursor: "pointer" }} // Change cursor to pointer for clickable rows
           >
             <td>
               <strong>{title}</strong>
+              <hr />
               <p>{description}</p>
             </td>
           </tr>

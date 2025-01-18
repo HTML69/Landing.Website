@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./BurgerMenu.css";
 
-function BurgerMenu({ homeRef, aboutRef }) {
+function BurgerMenu({ homeRef, educationRef, projectRef }) {
   const [open, setOpen] = useState(false);
 
   const toggleMenu = () => setOpen(!open);
@@ -37,12 +37,15 @@ function BurgerMenu({ homeRef, aboutRef }) {
             <li>
               <button onClick={() => scrollToSection(homeRef)}>Home</button>
             </li>
+
             <li>
-              {" "}
-              <button>Education</button>
+              <button onClick={() => scrollToSection(educationRef)}>
+                Education
+              </button>
             </li>
+
             <li>
-              <button onClick={() => scrollToSection(aboutRef)}>
+              <button onClick={() => scrollToSection(projectRef)}>
                 My Projects
               </button>
             </li>
