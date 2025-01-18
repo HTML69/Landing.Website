@@ -1,7 +1,7 @@
 import "./header.css";
 import BurgerMenu from "./BurgerMenu";
 
-function Header({ homeRef, projectRef, educationRef }) {
+function Header({ homeRef, projectRef, educationRef, aboutmeRef }) {
   return (
     <>
       <div className="header1">
@@ -15,6 +15,7 @@ function Header({ homeRef, projectRef, educationRef }) {
             homeRef={homeRef}
             projectRef={projectRef}
             educationRef={educationRef}
+            aboutmeRef={aboutmeRef}
           />
         </div>
       </div>
