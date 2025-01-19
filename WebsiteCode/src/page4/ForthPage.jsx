@@ -7,6 +7,10 @@ const ForthPage = forwardRef((props, ref) => {
     <div className="data" ref={ref}>
       <hr />
       <h1> about me</h1>
+
+inteo 
+
+life
     </div>
   );
 });
