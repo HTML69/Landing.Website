@@ -1,0 +1,6 @@
+.maindivmarquee {
+  width: 30rem;
+  overflow: hidden;
+  padding-left: 35%;
+  pointer-events: none;
+}
